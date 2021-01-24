@@ -1,2 +1,2 @@
 # Alura-Python
- Learning Python in Alura Enviroment
+ Learning Python in Alura Environment
