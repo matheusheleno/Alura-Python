@@ -13,7 +13,7 @@ chute = input("Digite um numero: ")
 
 # chute = input("Digite um numero: ")
 
-print("Você digitou ",chute)
+print("Você digitou: ",chute)
 
 if (numero_secreto == chute):
     print("Parabéns, Você acertou!")
