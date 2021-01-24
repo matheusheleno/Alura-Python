@@ -19,8 +19,11 @@ while tentativas > 0 and chute != numero_secreto:
         if tentativas == 0:
             print("Você errou, acabaram suas tentativas :/ !")
         else:
-            print("Você errou, tente novamente, você ainda tem ", tentativas, "Tentativas!")
-
+            print("Errrrou!! Numero de Tentativas: ", tentativas)
+            if chute > numero_secreto:
+                print("Dica: Abaixa um pouco a bola ai campeão, ta alto demais")
+            if chute < numero_secreto:
+                print("Dica: Um pouco mais! Um pouco mais Leonidas?!")
 # Fim do While
 
 # Fim do código.
