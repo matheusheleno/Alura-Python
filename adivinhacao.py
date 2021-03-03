@@ -7,7 +7,7 @@ print(' ================= BOA SORTE ==================== ')
 print("--------------------------------------------------")
 # --------variaveis--------- #
 numero_secreto = (random.randint(0, 9))
-chute = 0
+chute = int(0)
 tentativas = 5
 # --------CODE--------- #
 while tentativas > 0 and chute != numero_secreto:
@@ -29,7 +29,7 @@ while tentativas > 0 and chute != numero_secreto:
             if fim_tenta:
                 print("!! YOU LOSE - O NUMERO ERA: ", numero_secreto, " ATE A PROXIMA !!")
             else:
-                print("Errrrou!! Numero de Tentativas: ", tentativas)
+                print("Errou!! Numero de Tentativas: ", tentativas)
                 if maior:
                     print("Dica: Abaixa um pouco a bola ai campeão, ta alto demais!")
                 if menor:
@@ -37,5 +37,6 @@ while tentativas > 0 and chute != numero_secreto:
     else:
         print("O valor", chute, " é invalido informe um valor de 0 a 9!")
 # Fim do While
+# estou editando em tempo real aqui cara.... é lindo demais ver isso olha só...
 
 # Fim do código.
